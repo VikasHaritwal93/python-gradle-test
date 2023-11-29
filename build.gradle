@@ -1,6 +1,8 @@
 plugins {
-    id 'org.gradle.python.python'
+    id 'org.gradle.python.python' version '7.3'
 }
+
+
 
 python {
     pythonVersion = '3.8'
