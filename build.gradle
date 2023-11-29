@@ -1,0 +1,12 @@
+plugins {
+    id 'org.gradle.python.python'
+}
+
+python {
+    pythonVersion = '3.8'
+    distName = 'python-gradle-test'
+}
+
+tasks.test {
+    useJUnitPlatform()
+}
