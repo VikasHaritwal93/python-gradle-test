@@ -2,14 +2,6 @@ plugins {
     id 'org.gradle.python.python' version '7.3'
 }
 
-pluginManagement {
-    repositories {
-        maven {
-            url "https://plugins.gradle.org/m2/"
-        }
-    }
-}
-
 
 python {
     pythonVersion = '3.8'
